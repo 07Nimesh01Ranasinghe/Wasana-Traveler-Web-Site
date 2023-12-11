@@ -267,6 +267,50 @@ span
     box-shadow: none;
 }
 
+/*Why Choose Us*/
+
+.choose {
+    background-color: var(--second-bg-color);
+}
+
+.choose h2
+{
+    padding-top: 75px;
+    margin-bottom: 5rem;
+}
+
+.choose-container
+{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.choose-container .choose-box
+{
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem; 
+    text-align: center;
+    transition: .5s ease;
+}
+
+.choose-box h3
+{
+    padding-top: 50px;
+    font-size: 2.0rem;
+}
+
+.choose-img {
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
 
 /*Services*/
 
@@ -296,6 +340,7 @@ span
     border-radius: 2rem;
     text-align: center;
     border: .2rem solid var(--bg-color);
+    margin: 15px;
     transition: .5s ease;
 }
 

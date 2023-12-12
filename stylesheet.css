@@ -358,6 +358,7 @@ span
 
 .services-box h3
 {
+    margin-top: 10px;
     font-size: 2.6rem;
 }
 
@@ -393,7 +394,17 @@ span
     height: 100%;
     object-fit: cover;
 }
-
+.services .services-box a{
+    color: var(--text-color);
+}
+/* places*/
+.places{
+    justify-content: center;
+    background-color: var(--second-bg-color);
+}
+.places img{
+    height: 80vh;
+}
 /*about sec */
 .about
 {
@@ -442,7 +453,7 @@ span
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 
 .footer-text p
